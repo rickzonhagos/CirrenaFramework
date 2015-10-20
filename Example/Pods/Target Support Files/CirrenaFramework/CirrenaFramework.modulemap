@@ -1,0 +1,6 @@
+framework module CirrenaFramework {
+  umbrella header "CirrenaFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
