@@ -11,7 +11,6 @@
 		0B145AB431EAB2E55EB0D1B89E44BD4C /* Pods-CirrenaFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4690976400D9D4D31CC7551AB3A91951 /* Pods-CirrenaFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E891E2227EA9ECDF8B6CA91BE433125 /* CirrenaFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A17B9E545696B1A6E38EE7584B1A12B5 /* CirrenaFramework-dummy.m */; };
 		1426379686C445C74F6290E01E7C48C3 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0ABE53DF2B31909B5B617FAB65B236 /* SwiftSupport.swift */; };
-		15D9604AA470E6D653049EC925FF4C61 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04291E2661DC38BE5FFFE003358FC984 /* ReplaceMe.swift */; };
 		2162C870E34F40496AAA67F69192208B /* CirrenaFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EE9BA93EE3D2AE5184537842B414762 /* CirrenaFramework.bundle */; };
 		25643CF896C586CFED1AE0E10C849B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		30369AD6166CCFB4CC937468EE3B97EC /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6248896E1BB34642D588CC962FAAFB9A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +27,10 @@
 		7AAE901DDE6B83F33E5CDA3BD3ADA2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E351727CD07BB90B2A3CAE2C2433F6C5 /* Foundation.framework */; };
 		81850ABEE9BC55B37B4B20B5A5DD14D1 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD616B2231E3F8849242A08BD134C42 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5C2CF24313E2E86220ECEDFB492E2B /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D54FACDBD13FE0790ADED9975217AF /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95CDBF531BD5E6B900C77FD2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDBF4C1BD5E6B900C77FD2 /* BaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		95CDBF541BD5E6B900C77FD2 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDBF4E1BD5E6B900C77FD2 /* HTTPRequest.swift */; settings = {ASSET_TAGS = (); }; };
+		95CDBF551BD5E6B900C77FD2 /* Cirrena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDBF501BD5E6B900C77FD2 /* Cirrena.swift */; settings = {ASSET_TAGS = (); }; };
+		95CDBF561BD5E6B900C77FD2 /* CirrenaModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDBF521BD5E6B900C77FD2 /* CirrenaModelData.swift */; settings = {ASSET_TAGS = (); }; };
 		A13E27F5FFC6B5C5CD7EAB01E1F280FA /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC43B268753FFDBB71BD2DFCD3B3D00 /* UIImage+Compare.m */; };
 		A54E73B86A42C3229B743961C21B300B /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1527765E3D0648C23ADECABEAD2BC7E /* FBSnapshotTestController.m */; };
 		AD69ED4131252480EE998FA3F0B41D80 /* Pods-CirrenaFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAAE56E46BBE0D60C19DBCBBF302D7 /* Pods-CirrenaFramework_Tests-dummy.m */; };
@@ -71,7 +74,6 @@
 /* Begin PBXFileReference section */
 		0277D271D69932B1FD3C57A4FE001AF8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		031821031415F3DF9F2C65E71C9446E5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		04291E2661DC38BE5FFFE003358FC984 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		05EE4D7965C2741902A6F857708D3B6F /* Pods-CirrenaFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CirrenaFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		103F5F797F5A1E325F1AB927F70E6F40 /* Pods-CirrenaFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CirrenaFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		18756CDA1AF79E7E2EDAB6BAC20CF81C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -100,6 +102,10 @@
 		8C39421CCFC760E6F6134A970742961D /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		8D3108BADC9FA9338E148362791FE7BA /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		94121C30B0826F52F6D8DD1F9349E9F8 /* Pods-CirrenaFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CirrenaFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95CDBF4C1BD5E6B900C77FD2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		95CDBF4E1BD5E6B900C77FD2 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		95CDBF501BD5E6B900C77FD2 /* Cirrena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cirrena.swift; sourceTree = "<group>"; };
+		95CDBF521BD5E6B900C77FD2 /* CirrenaModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirrenaModelData.swift; sourceTree = "<group>"; };
 		961538201684B41F2D8E008CB622C7F1 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		98B310E87FC8E1C62FBBAB98B04F38CC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1081E5FAD00A773DE5FB428959D44F0 /* CirrenaFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CirrenaFramework-umbrella.h"; sourceTree = "<group>"; };
@@ -245,7 +251,10 @@
 		4A0C57937E98216D324A7983FABD5D55 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				04291E2661DC38BE5FFFE003358FC984 /* ReplaceMe.swift */,
+				95CDBF4B1BD5E6B900C77FD2 /* BaseViewController */,
+				95CDBF4D1BD5E6B900C77FD2 /* HTTPRequest */,
+				95CDBF4F1BD5E6B900C77FD2 /* Model */,
+				95CDBF511BD5E6B900C77FD2 /* ModelData */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -328,6 +337,38 @@
 				F82F93DCEA6DE7CD521E0DA9850C3010 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		95CDBF4B1BD5E6B900C77FD2 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95CDBF4C1BD5E6B900C77FD2 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		95CDBF4D1BD5E6B900C77FD2 /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				95CDBF4E1BD5E6B900C77FD2 /* HTTPRequest.swift */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		95CDBF4F1BD5E6B900C77FD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95CDBF501BD5E6B900C77FD2 /* Cirrena.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95CDBF511BD5E6B900C77FD2 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				95CDBF521BD5E6B900C77FD2 /* CirrenaModelData.swift */,
+			);
+			path = ModelData;
 			sourceTree = "<group>";
 		};
 		9EA454A0B75EAD7600801367C650AEF5 /* Pod */ = {
@@ -565,8 +606,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CDBF561BD5E6B900C77FD2 /* CirrenaModelData.swift in Sources */,
+				95CDBF551BD5E6B900C77FD2 /* Cirrena.swift in Sources */,
+				95CDBF541BD5E6B900C77FD2 /* HTTPRequest.swift in Sources */,
 				0E891E2227EA9ECDF8B6CA91BE433125 /* CirrenaFramework-dummy.m in Sources */,
-				15D9604AA470E6D653049EC925FF4C61 /* ReplaceMe.swift in Sources */,
+				95CDBF531BD5E6B900C77FD2 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
